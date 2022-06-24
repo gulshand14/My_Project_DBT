@@ -1,0 +1,9 @@
+version: 2
+
+sources:
+  - name: Snowflake_Source
+    database: NEW_DATA_02
+    schema: DBT_GULSHAND14
+    tables:
+      - name: console
+      - name: consolegames
